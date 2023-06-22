@@ -1,28 +1,11 @@
-# Create T3 App
+# Bill-Bison
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+*The* *quickest* *way* *to* *split* *bills* *with* *friends*.
 
-## What's next? How do I make an app with this?
+## Introduction 💭
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+BillBison is a sophisticated full-stack web application designed to streamline the process of splitting bills and expenses among friends. With a user-friendly interface and cutting-edge technology, this application revolutionizes the way users handle shared expenses. Whether it's a dinner bill, a group outing, or any other shared receipt, BillBison simplifies the calculation and payment process, ensuring accuracy and efficiency. Powered by advanced OCR (Optical Character Recognition) AI, users can effortlessly upload receipts and have the items and prices automatically extracted, eliminating the need for manual entry.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+The core feature of BillBison lies in its intuitive bill splitting mechanism. Users can easily assign expenses to their friends within the application or even split the bill with non-app users using their phone numbers. The application provides flexibility in dividing expenses, allowing users to split evenly or assign custom amounts to each participant. By automating the payment request process, the app sends prompt and accurate payment requests to involved users, ensuring a seamless and hassle-free experience.
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
-
-## Learn More
-
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+With robust user management capabilities, BillBison allows users to maintain their friends' list and track their payment history effortlessly. The application emphasizes security and privacy, ensuring that each user's data is protected and their information remains confidential. BillBison embraces modern web technologies such as TypeScript and Next.js, delivering a responsive and performant user experience across devices. By combining convenience, accuracy, and seamless integration with OCR AI and payment gateways, BillBison is the ideal solution for individuals and groups seeking an efficient and collaborative approach to splitting bills and shared expenses.
