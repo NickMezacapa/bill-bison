@@ -1,7 +1,13 @@
 import { type Session } from "next-auth";
 import { SessionProvider } from "next-auth/react";
 import { type AppType } from "next/app";
+
+import { DefaultSeo } from 'next-seo';
+import { SeoConfig } from 'next-seo.config';
+
 import { api } from "~/utils/api";
+
+import ThemeLayout from '~/components/theme/ThemeLayout';
 import "~/styles/globals.css";
 
 const MyApp: AppType<{ session: Session | null }> = ({
@@ -10,7 +16,12 @@ const MyApp: AppType<{ session: Session | null }> = ({
 }) => {
   return (
     <SessionProvider session={session}>
-      <Component {...pageProps} />
+      <ThemeLayout>
+        <DefaultSeo {...SeoConfig} />
+        <main className='relative overflow-hidden'>
+          <Component {...pageProps} />
+        </main>
+      </ThemeLayout>
     </SessionProvider>
   );
 };

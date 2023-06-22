@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#__next {
+    min-height: 100%;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -webkit-app-region: none;
+    -webkit-user-select: none;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar,
+*::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+html {
+    display: block;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --foreground-start-rgb: 214, 219, 220;
+    --foreground-end-rgb: 255, 255, 255;
+    --scrollTextPercentage: 0%;
+}
