@@ -1,5 +1,5 @@
 {
-  "name": "bill-bison",
+  "name": "split-me",
   "version": "0.1.0",
   "private": true,
   "author": "Nick Mezacapa",
@@ -7,7 +7,7 @@
   "browserslist": "defaults, not ie <= 11",
   "engines": {
     "node": ">=14.0.0",
-    "yarn": ">= 1.22.0",
+    "yarn": ">=1.22.0",
     "npm": "please use yarn"
   },
   "scripts": {
