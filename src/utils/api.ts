@@ -28,7 +28,7 @@ export const api = createTRPCNext<AppRouter>({
   },
   ssr: false,
 });
-
+// add export types
 export type RouterInputs = inferRouterInputs<AppRouter>;
 
 export type RouterOutputs = inferRouterOutputs<AppRouter>;
