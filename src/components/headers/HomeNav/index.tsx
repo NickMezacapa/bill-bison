@@ -1,13 +1,19 @@
+import { useState } from 'react';
 import TextLogo from '~/components/logos/TextLogo'
+import { NavLinks } from './NavLinks'
 
 const HomeNav = () => {
+    const [activeOption, setActiveOption] = useState<string>('');
+    const handleOptionClick = (option: string) => {
+        setActiveOption(option);
+    }
   return (
     <header className='h-[8%] w-full py-10 absolute left-0'>
-        <nav className='w-full h-full relative flex items-center justify-between p-2 sm:p-8 max-w-6xl'>
-            <div className='flex items-center space-x-20 w-[65%] justify-between'>
+        <nav className='w-full h-full relative flex items-center justify-between p-2 sm:p-8'>
+            <div className='flex items-center space-x-20 w-[65%] justify-between max-w-2xl'>
                 <TextLogo />
-                <div className='hidden sm:flex items-center justify-between w-full'>
-                    {/* nav options */}
+                <div className='hidden md:flex items-center min-w-[320px] justify-between w-full'>
+                    <NavLinks active={activeOption} callBack={handleOptionClick} />
                 </div>
             </div>
             <div>
