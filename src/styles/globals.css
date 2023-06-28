@@ -39,3 +39,30 @@ body {
     --foreground-end-rgb: 255, 255, 255;
     --scrollTextPercentage: 0%;
 }
+
+.IntroAnimation {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  .IntroAnimation-Title {
+    animation: RiseUp 0.9s ease-in-out forwards;
+  }
+  .IntroAnimation-Paragraph {
+    animation: RiseUp 0.9s ease-in-out 0.3s forwards;
+  }
+  .IntroAnimation-Buttons {
+    animation: RiseUp 0.9s ease-in-out 0.5s forwards;
+  }
+
+
+  @keyframes RiseUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
