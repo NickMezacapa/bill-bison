@@ -8,7 +8,7 @@ const HomeNav = () => {
         setActiveOption(option);
     }
   return (
-    <header className='h-[8%] w-full py-10 absolute left-0'>
+    <header className='h-[8%] w-full py-4 left-0'>
         <nav className='w-full h-full relative flex items-center justify-between p-2 sm:p-8'>
             <div className='flex items-center space-x-20 w-[65%] justify-between max-w-2xl'>
                 <TextLogo />
