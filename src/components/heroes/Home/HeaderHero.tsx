@@ -1,7 +1,3 @@
-// import { useId, useRef, useState } from 'react'
-// import Image from 'next/image'
-// import clsx from 'clsx'
-// import { motion, useInView, useMotionValue } from 'framer-motion'
 import { BsBoxArrowInUpRight } from 'react-icons/bs'
 import { AiOutlinePlus } from 'react-icons/ai'
 
@@ -9,6 +5,7 @@ import Container from '~/components/theme/Container'
 import Button from '~/components/theme/Button'
 import BackgroundIllustration from './BackgroundIllustration'
 import PhoneHero from './PhoneHero'
+import AppDemo from '~/components/heroes/AppDemo/AppDemo'
 
 const HeaderHero = () => {
   return (
@@ -53,6 +50,7 @@ const HeaderHero = () => {
           <div className="-mx-4 h-[448px] px-9 [mask-image:linear-gradient(to_bottom,white_60%,transparent)] sm:mx-0 lg:absolute lg:-inset-x-10 lg:-top-10 lg:-bottom-20 lg:h-auto lg:px-0 lg:pt-10 xl:-bottom-32">
             <PhoneHero className="mx-auto max-w-[366px]" priority props={{}}>
               {/* <AppDemo /> */}
+              <AppDemo />
             </PhoneHero>
           </div>
         </div>
