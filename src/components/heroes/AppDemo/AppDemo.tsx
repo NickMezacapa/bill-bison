@@ -30,7 +30,7 @@ const AppDemo = () => {
             <li className='w-full border-b border-[#d4d4d45c] px-2 py-4'>
                 <div className='w-full flex items-center justify-between'>
                     <div className='w-[50%] h-full flex items-center justify-between'>
-                        <Image src='/assets/avatar-hero-2.png' alt='SplitMe User' width={50} height={50} className='rounded-full ml-[-0.25rem]' />
+                        <Image src='/assets/avatar-hero-1.png' alt='SplitMe User' width={40} height={40} className='rounded-full' />
                         <h3 className='text-blue-400 text-xs mr-[0.25rem]'>@rachelwillz</h3>
                     </div>
                     <div className='w-1/3 flex items-center justify-end text-green-500'>
