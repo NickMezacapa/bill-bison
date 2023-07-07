@@ -21,7 +21,7 @@ const AppDemo = () => {
                     </div>
                 </div>
                 <div className='w-full px-12 text-xs text-gray-600 flex flex-col ml-[0.35rem] items-left justify-start pb-1'>
-                    <p>3pc Chicken Tender - $9.23</p>
+                    <p>3pc Chicken Tender - $9.24</p>
                     <p>Diet Coke (x2) - $2.80</p>
                     <p>Total: $14.84</p>
                     <p className='mt-3 text-[#eae8ed]'>Total with Tip: $17.81</p>
