@@ -12,5 +12,3 @@ With robust user management capabilities, SplitMe allows users to maintain their
 <br>
 <br>
 
-## How to use 🏃‍♂️
-Download the application on your phone and sign up for an account. Once you have an account, you can start splitting bills with your friends. You can either upload a receipt or manually enter the items and prices. Once you have entered the items, you can assign them to your friends. You can also split the bill with non-app users by entering their phone numbers. Once you have assigned the items, you can send payment requests to your friends. Your friends will receive a text message with a link to the payment page. Once they have paid, you will receive a notification. You can also view your friends' payment history and manage your friends' list.
