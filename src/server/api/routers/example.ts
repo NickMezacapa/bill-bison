@@ -5,6 +5,9 @@ import {
   protectedProcedure,
 } from "~/server/api/trpc";
 
+// delete this
+
+
 export const exampleRouter = createTRPCRouter({
   hello: publicProcedure
     .input(z.object({ text: z.string() }))
